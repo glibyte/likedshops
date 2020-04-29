@@ -9,8 +9,6 @@
   <link rel="stylesheet" type="text/css" href="css/gb_color.css">
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/jquery-3.3.1.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY1QsrZcu6wzzHHFXhcYWScw9xS0JmNKI&callback=initMap"
-  type="text/javascript"></script>
   
 </head>
 <body>
@@ -30,9 +28,6 @@
       <input type="text" placeholder="Busca productos, servicios y más..." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-    <!-- ubicacion -->
-    <button onclick="geoFindMe()" id="btn-location"><i class="fa fa-map-marker"></i> Ubicacion</button>
-    <div id="out"></div> 
   </div>
  
 
